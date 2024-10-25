@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <title> AUDIO </title>
+        <link rel="stylesheet" type="text/css" href="../CSS/diseno_nav.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/dis_pag.css">
+        <style type="text/css">
+            header, nav, main, footer{
+                width: 100%;
+            }
+            section{
+                width: 40%;
+                height: 350px; 
+                display: inline-block;
+                margin: 10px;
+                text-align: center;
+                overflow: auto;
+                
+            }
+            main{
+                text-align: center;
+            }
+            audio{
+                margin: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>AUDIO EN HTML</h1>
+        </header>
+        <nav>
+            <ul>
+               <li><a href="../index.html">Inicio</a></li>
+                <li><a href="tipos_de_listas.html">Tipos de listas</a></li>
+                <li><a href="enlaces.html">Tipos de enlaces</a></li>
+                <li><a href="audio.html">Audio</a></li>
+                <li><a href="formularios.html">Formularios</a></li>
+                <li><a href="imagenes.html">Imagenes</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="video.html">Videos</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Audio</h2>
+                <p>
+                   Canción perfecta para la introducción de una serie infantil.
+                </p>
+                <audio controls>
+                    <source src="../audios/Walking The Dog - Jeremy Korpas.mp3" type="audio/mp3">
+                    tu navegador no soporta el formato audio mp3
+                </audio>
+                
+            </section>
+            <section>
+                <h2>Audio muteado con reproducción automatica</h2>
+                <p>
+                    El silencio, es que es una de mis canciones favoritas.
+                </p>
+                <audio controls muted autoplay>
+                    <source src="../audios/Forever Friends - Jeremy Korpas.mp3" type="audio/mp3">
+                    tu navegador no soporta el formato audio mp3
+                </audio>
+            </section>
+            
+            <section>
+                <h2>Audio loop</h2>
+                <p>
+                    Canción perfecta para estar repitiendo muchas veces y sentirse dentro de un mundo mágico.
+                </p>
+                 <audio controls loop>
+                    <source src="../audios/Dream Big - Jeremy Korpas.mp3" type="audio/mp3">
+                    tu navegador no soporta el formato audio mp3
+                 </audio>       
+            </section>
+            <section>
+                <h2>Audio externo</h2>
+                <p>
+                    potcast perfecto para escuchar mientras uno trabaja.
+                </p>  
+                <iframe src="https://www.ivoox.com/player_ej_83317683_6_1.html?c1=125951" width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" loading="lazy"></iframe>
+            </section>
+            <section>
+                <h2>Audio spotify</h2>
+                <p>
+                    Recomendación de un grupo que me gusta mucho.
+                </p>  
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/78bsqObGFUD5ntweePBhIY?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </section>
+            
+        </main>
+        <footer>
+            <h5>Elaborado por Gabriela Isabel Sibaja Santiago</h5>
+        </footer>
+    </body>
+</html>

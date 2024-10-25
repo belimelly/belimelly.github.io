@@ -1,0 +1,192 @@
+<html>
+    <head>
+        <title> Formularios </title>
+        <link rel="stylesheet" type="text/css" href="../CSS/diseno_nav.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/dis_pag.css">
+		<meta charset="UTF-8" />
+    </head>
+    <body>
+        <header>
+            <h1>FORMULARIOS</h1>
+        </header>
+        <nav>
+            <ul>
+               <li><a href="../index.html">Inicio</a></li>
+                <li><a href="tipos_de_listas.html">Tipos de listas</a></li>
+                <li><a href="enlaces.html">Tipos de enlaces</a></li>
+                <li><a href="audio.html">Audio</a></li>
+                <li><a href="formularios.html">Formularios</a></li>
+                <li><a href="imagenes.html">Imagenes</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="video.html">Videos</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+             	<h2>Ingreso</h2>
+			  <p>
+			  	Coloca tus datos para continuar.	
+					
+				</p>
+					<form action="mi_primera_web.html" method="get" id="form1">
+						<div class="centrar">
+							<label for="Usuario">Usuario:</label>
+							
+		  				  <input name="Usuario" type="text" id="USUARIO"  maxlength="15">
+							
+			  			  <label for="password">Contraseña:</label>
+							
+               			  <input name="password" type="password" id="password" maxlength="6">
+							
+				
+                    			<input name="submit" type="submit" id="submit" value="Enviar">
+						</div>
+					</form>
+            </section>
+            <section>
+               <h2>Formulario </h2>
+				<p>Ingrese los datos solicitados:&nbsp;&nbsp;</p>
+				
+				<form method="get" id="form2">
+				    
+				  <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre">
+					<label for="apellidos">Apellido:</label>
+                    <input type="text" name="apellidos" id="apellidos">
+				    <label for="edad">Edad:</label>
+                    <input name="edad" type="number" id="edad" max="100" min="18">
+                  
+				  <label for="Pais">Select:</label>
+                  <select name="Pais" id="Pais">
+                    <option value="argentina">ARGENTINA</option>
+                    <option value="bolivia">BOLIVIA</option>
+                    <option value="colombia">COLOMBIA</option>
+                    <option value="méxico">MÉXICO</option>
+                    <option value="italia">ITALIA</option>
+                    <option value="francia">FRANCIA</option>
+                    <option value="noruega">NORUEGA</option>
+				  </select>
+					  
+				 <p>
+				   <label>Género:</label>
+			       <label>
+				      <input type="radio" name="G&eacute;nero" value="masculino" id="Geacutenero_0">
+				      MASCULINO</label>
+				    
+				    <label>
+				      <input type="radio" name="G&eacute;nero" value="femenino" id="Geacutenero_1">
+				      FEMENINO</label>
+				    
+			      </p>
+                 <label>Género musical:</label>
+                 <p>
+                   <label>
+                     <input type="checkbox" name="Género de musica" value="pop" id="Geacutenerodemusica_0">
+                   POP</label>
+                   
+                   <label>
+                     <input type="checkbox" name="Género de musica" value="rock" id="Geacutenerodemusica_1">
+                     ROCK</label>
+                   
+                   <label>
+                     <input type="checkbox" name="Género de musica" value="jazz" id="Geacutenerodemusica_2">
+                     JAZZ</label>
+                   
+                   <label>
+                     <input type="checkbox" name="Género de musica" value="alternativa" id="Geacutenerodemusica_3">
+                     ALTERNATIVA</label>
+                   
+                   <label>
+                     <input type="checkbox" name="Género de musica" value="clásica" id="Geacutenerodemusica_4">
+                     CLASICA</label>
+                  
+                 </p>
+                 <input name="submit" type="submit" id="submit" value="Enviar">
+				</form>
+				
+                 
+				
+				
+            </section>
+            <section>
+             	<h2>Cumpleaños</h2>
+				
+				<p>
+                Ingrese sus gustos y su fecha de cumpleaños.</p>
+				<form name="form3" method="post" action="">
+				  <label for="date">Cumpleaños:</label>
+                  <input name="date" type="date" id="date" min="1900-01-01">
+					<br>
+					<br>
+					<label>Sabor de pastel favorito:</label>
+                  <p>
+                    <label>
+                      <input type="checkbox" name="Sabor de pastel favorito" value="chocolate" id="Sabordepastelfavorito_0">
+                      Chocolate</label>
+                    
+                    <label>
+                      <input type="checkbox" name="Sabor de pastel favorito" value="tresleches" id="Sabordepastelfavorito_1">
+                      Tres leches</label>
+                    
+                    <label>
+                      <input type="checkbox" name="Sabor de pastel favorito" value="vainilla" id="Sabordepastelfavorito_2">
+                      Vainilla</label>
+                    
+                  </p>
+				  &nbsp;
+					
+					<label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+					<br>
+					<br>
+                    <label for="tel">Telefono:</label>
+                    <input type="tel" name="tel" id="tel">
+					<br>
+					<br>
+                    <label for="fileField">Identificación o archivo que avale la fecha de nacimiento:</label>
+                    <input type="file" name="fileField" id="fileField">
+					<br>
+					<br>
+                    <label for="color">Color favorito:</label>
+                    <input type="color" name="color" id="color">
+					<br>
+					<br>
+                    <label for="datetime">Fecha y hora de apartado del salón:</label>
+                    <input type="datetime" name="datetime" id="datetime">
+					<br>
+					<br>
+					
+					<label>¿Quiere servicio de decoración?</label>
+                  <p>
+                      <label>
+                        <input type="checkbox" name="aceptacion" value="si" id="aceptacion_0">
+                        Sí</label>
+                    
+                      <label>
+                        <input type="checkbox" name="aceptacion" value="no" id="aceptacion_1">
+                        No</label>
+                      <br>
+                    </p>
+					
+                  <label for="range">En un rango del 1 al 6 ¿Cuántas horas va a necesitar el espacio?:</label>
+                    <input name="range" type="range" id="range" max="6" min="0">
+					<br>
+					<br>
+                    <label for="textarea">Comentarios extra:</label>
+                  <textarea name="textarea" id="textarea" cols="45" rows="5"></textarea>
+                    <input name="submit" type="submit" id="submit" value="Enviar">
+              </form>
+				
+				
+            </section>
+            <section>
+             	<h2></h2>
+				<p></p>
+            </section>
+            
+        </main>
+        <footer>
+          <h5>Elaborado por Gabriela Isabel Sibaja Santiago</h5>
+    </footer>
+    </body>
+</html>

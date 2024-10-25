@@ -1,0 +1,114 @@
+nav ul{
+    list-style: none;
+    color:#EEEEEE;
+}
+
+nav ul li{
+    color:#EEEEEE;
+    text-decoration: none;
+}
+/* tamaño de la caja*/
+nav ul li{
+    display: inline;
+    padding: 15px;
+}
+
+/*este es para cambiar el color de fondo del cuadrado cuando pase el puntero*/
+nav a:hover{
+    background-color: coral;
+    color:darkorange;
+    
+}
+/*color del texto*/
+nav ul li:link{
+    color: #134B70;
+    text-decoration: none;
+}
+
+/*son las cajas con el borde redondeado*/
+nav a{
+    color:darkblue;
+    text-decoration: none;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/*para cuando pase el puntero es el hover*/
+nav a:hover{
+    color:floralwhite;
+   /* background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;*/
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+nav ul li a:link{
+   /* unicamente para agregar peso a la tipo*/
+    font-weight: bold;
+}
+main nav{
+    width: 780px;
+}
+
+/*este soo afecta al a del main*/
+main nav ul li a:hover{
+    color:brown;
+}
+
+p a:visited{
+    color:#201E43;
+    font-weight:bolder;
+}
+
+p a:link{
+    color:#EEEEEE;
+    font-weight:bolder;
+}
+
+p a:active{
+    color: darkorange;
+}
+
+.centrar{
+    text-align: center;
+}
+
+#gojo2{
+    width:auto;
+    height: 180px;
+    float: left;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+#gojo3{
+    width:auto;
+    height: 180px;
+    float: right;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+#cora{
+    width:60px;
+    height: 60px;
+    float: left;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+#gatogojo{
+    width:100px;
+    height: 100px;
+    float: right;
+    padding-left: 20px;
+    padding-top: 20px;
+    
+}
+
+p{
+    margin-bottom: 5px;
+    text-align: justify;
+}

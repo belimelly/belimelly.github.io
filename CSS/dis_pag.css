@@ -1,0 +1,305 @@
+ *{
+                margin: 0;
+                padding: 0;
+            }
+form {
+    width: 50%;
+    padding: 30px;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1C5560;
+}
+
+
+label {
+    color: #F0F8FF;
+    font-weight: bolder;
+    display: block;
+   
+}
+#form2 #Pais {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #FCFFCD;
+    color: #001F36;
+}
+#form2 #edad {
+    color: #001F36;
+    background-color: #FCFFCD;
+    font-weight: bolder;
+    height: 5%;
+}
+
+
+input[type=text] ,  input[type=password]{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #FCFFCD;
+    color: #001F36;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 40%;
+    height: 30px;
+    background-color: #001F36;
+    color: #F0F8FF;
+    margin-top: 10px;
+}
+
+
+
+
+            header,nav,main,footer{
+                width:100%;
+                margin-left: auto;
+                margin-right: auto;
+                /*para ajustar el espacio en blanco de manera equitativa se hace con la propiedad "auto" en margin*/
+                padding: 20px;
+                 
+            }
+            
+            header,footer{
+                background-color: #001F36;
+            }
+            
+            nav{
+                background-color: #1C5560;
+                height: 20px;
+                text-align: center;
+            }
+            
+            main{
+                background-color: #79AE92;
+                height: auto;
+            }
+            
+            
+            H1,h5{
+                text-align: center;
+                
+                color:#FBFFCD;
+            }
+            
+            p,h2{
+                color:#EEEEEE;
+            }
+            
+            section{
+                width: 80%;
+                background-color: #248277;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 10px;
+                margin-top: 10px;
+                padding: 30px;
+            }
+            
+            h2{
+                padding-bottom: 20px;
+            }
+
+main section ol li ul{
+              padding-left: 20px;  
+            }
+            
+            main section ol ul{
+              padding-left: 20px;  
+            }
+             
+            main section ol{
+              padding-left: 20px;  
+            }
+            
+            main section ul{
+              padding-left: 20px;  
+            }
+            
+			ul li, ol li{
+				color: white;
+			}
+#filtro img{
+    width: 30%;
+    height: auto;
+    margin: 10px;
+
+}
+
+#filtro1{
+    filter: brightness(150%);
+
+}
+
+#filtro2{
+    filter: contrast(200%);
+}
+
+#filtro3{
+    filter: grayscale(150%);
+}
+
+#filtro4{
+    filter: sepia(120%);
+}
+
+#filtro5{
+    filter: saturate(150%);
+}
+
+#filtro6{
+    filter: opacity(0.5);
+}
+
+#filtro7{
+    filter: invert(100%);
+}
+
+#filtro8{
+    filter: blur(10px);
+}
+
+#filtro9{
+    filter: drop-shadow(10px 5px 10px black);
+    
+}
+
+#filtro10{
+    filter: contrast(150%) drop-shadow(10px 10px 10px black);
+}
+
+#filtro11{
+    filter: brightness(120%) opacity(80%);
+}
+
+#filtro12{
+    filter: sepia(130%) blur(2px);
+}
+
+.centrari{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.centrar{
+	text-align: center;
+}
+/*Diseño de Tabla*/
+thead,tbody,tfoot{
+       color: #EEEEEE;
+}
+
+
+ 
+table{
+    border-color: #001F36;
+    table-layout: fixed;
+   /* border-collapse: collapse;*/
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 15px;
+    padding: 10px;
+    border-spacing: 10px;
+}
+
+.tabla1{
+    width: 1200px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.tabla1 th{
+    background-color: #001F36;
+    height: 35px;
+    
+}
+.tabla1 tbody{
+    background-color: #1C5560;
+}
+
+.tabla1 td{
+    padding: 5px;
+    height: 15px;
+    margin: 20px;
+
+}
+
+.tabla1 td, .tabla1 th{
+    border-width: 2px;
+    border-style: solid;
+   /* border-radius: 15px;  */  
+}
+/*yabla de cebra*/
+#tabla2{
+    text-align: center;
+    width: 1200px;
+    border-color: #001F36;
+    border-collapse: collapse;
+}
+#tabla2 td, #tabla2 th{
+    border-width: 2px; 
+    padding: 5px;
+}
+
+/*cambiar color de las filas pares*/
+#tabla2 tr:nth-child(even){
+    background-color: #79AE92;
+    color: #001F36;
+}
+
+#tabla2 tr:nth-child(odd){
+    background-color: #1C5560;
+   
+}
+
+#tabla2 thead tr th{
+    background-color: #001F36;
+    padding: 10px;
+}
+
+/*usabndo hover*/
+
+#tabla3{
+    text-align: center;
+    width: 1000px;
+    border-color: #001F36;
+    border-collapse: collapse;
+}
+#tabla3 thead tr th{
+    background-color:  #1C5560;
+    padding: 10px;
+    color:mistyrose;
+}
+#tabla3 tbody{
+    background-color: #79AE92;
+    color:white;
+    font-weight:medium;
+   }
+#tabla3 td, #tabla3 th{
+    border-width: 2px; 
+    padding: 5px;
+}
+/*filas, con td es para cada cuadrito*/
+#tabla3 tbody tr:hover{
+    background-color:darkorange;
+    
+}
+
+/**/
+#tabla1{
+    width: 150%;
+}
+
+/*video*/
